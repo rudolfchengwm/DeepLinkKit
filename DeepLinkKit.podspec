@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/button/DeepLinkKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/buttondev'
 
-  s.ios.deployment_target     = "7.0"
+  s.ios.deployment_target     = "9.0"
   s.tvos.deployment_target    = "9.0"
 
   s.requires_arc     = true
